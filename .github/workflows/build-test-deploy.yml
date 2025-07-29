@@ -24,7 +24,7 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npm test
-    eploy:
+    deploy:
     needs: test
 
     permissions:
